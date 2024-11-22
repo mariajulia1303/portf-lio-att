@@ -17,7 +17,7 @@
 .social-links a{
     color: #ff0099;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 18px;
     padding: 5px 10px;
     border: 1px solid #ff0099;
     border-radius: 5px;
@@ -31,7 +31,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 156vh;
+    height: 234vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -41,6 +41,8 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
 }
+
+
 
 @keyframes gradientAnimation {
     0% {
@@ -66,6 +68,28 @@ body {
     margin: 20px 0;
 }
 
+.container3{
+    max-width: 900px; 
+    margin: 0 auto; 
+    background: #ffffff; 
+    border-radius: 10px; 
+    padding: 35px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    max-width: 900px; 
+    margin: 0 auto; 
+    background: #ffffff; 
+    border-radius: 10px; 
+    padding: 35px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
 .logo1 {
     width: 100px; 
     height: 100px; 
@@ -87,7 +111,7 @@ h1{
 
 }
 
-h2, h3 {
+h4, h3 {
     text-align: center;
     margin: 10px 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
