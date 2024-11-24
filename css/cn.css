@@ -17,7 +17,7 @@ body {
     transition: transform 0.3s;
     justify-content: center;
     top: 50%;
-    left: 10%;
+    left: 0%;
 }
 
 .container {
