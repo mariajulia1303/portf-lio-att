@@ -31,7 +31,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 362vh;
+    height: 408vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -146,3 +146,27 @@ footer p{
     color: black
 }
 
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.secao button {
+    padding: 0.5rem;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+}
+
+.secao button:hover {
+    background-color: transparent;
+    border: purple 1px solid;
+    transition: .7s;
+    color: purple;
+}
+
+.secao h1 {
+    color: white;
+}
